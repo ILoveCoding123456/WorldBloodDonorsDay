@@ -1,0 +1,148 @@
+body{
+    background-repeat: no-repeat;
+    background: radial-gradient(#0CCE6B,#574AE2, #AB87FF, #E83F6F);
+    color: aqua;
+}
+.C2{
+  color: aquamarine;
+}
+#WBD{
+  width: 300px;
+}
+h4{
+  font-family: cursive;
+    color: #9EEFE5;
+}
+h3{
+  font-family: cursive;
+    color: lime;
+}
+h1{
+  font-family: fantasy;
+    color: #7B061B;
+}
+h2{
+  font-family: fantasy;
+  color: #592782;
+}
+h6{
+  color: #E83F6F;
+}
+p{
+  width: 500px;
+}
+a {
+    color: inherit;
+  }
+  .menu {
+    position: absolute;
+    margin: 20px;
+    top: 70px;
+    bottom: 30px;
+    left: 1;
+    right: 70px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 23px;
+  }
+  
+  .menu-item {
+     box-shadow: none;
+  }
+  .menu-item:hover {
+    background: #292C33;
+    color: #00796b;
+  }
+  .menu-item, .menu-open-button {
+    position: absolute;
+    background: #292C33;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+  
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform ease-out 200ms;
+    transition: -webkit-transform ease-out 200ms;
+    transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
+  }
+  .menu-open {
+    display: none;
+  }
+  
+  .menu-open-button {
+     z-index: 2;
+     cursor: pointer;
+  }
+  .menu-open:checked ~ .menu-item:nth-child(3) {
+    transition-duration: 180ms;
+     -webkit-transition-duration: 180ms;
+     -webkit-transform: translate3d(0px, -75px, 0);
+     transform: translate3d(0px, -75px, 0);
+     box-shadow: 3px 3px 0 0 rgb(255, 0, 200);
+  }
+  .menu-open:checked ~ .menu-item:nth-child(4) {
+    transition-duration: 280ms;
+    -webkit-transition-duration: 280ms;
+    -webkit-transform: translate3d(60px, 50px, 0);
+    transform: translate3d(60px, 50px, 0);
+    box-shadow: 3px 3px 0 0 rgb(255, 0, 200);
+ }
+ .menu-open:checked ~ .menu-item:nth-child(5) {
+    transition-duration: 380ms;
+    -webkit-transition-duration: 380ms;
+    -webkit-transform: translate3d(-60px, 50px, 0);
+    transform: translate3d(-60px, 50px, 0);
+    box-shadow: 3px 3px 0 0 rgb(255, 0, 200);
+ }
+ .points {
+   width: 5px;
+   height: 5px;
+   border-radius: 50%;
+   background: #ffffff;
+   display: block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-left: -2.5px;
+   margin-top: -2.5px;
+ }
+ .p-1 {
+   -webkit-transform: translate3d(0, -7px, 0);
+   transform: translate3d(0, -7px, 0);
+ }
+ .p-2 {
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+ }
+ .p-3 {
+   -webkit-transform: translate3d(0, 7px, 0);
+   transform: translate3d(0, 7px, 0);
+ }
+ i {
+   text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+ }
+table{
+   background-color: #574AE2;
+   border: #AB87FF ridge 8px;
+}
+caption{
+  color: aquamarine;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: medium;
+}
+tr{
+  border: #E83F6F groove 5px;
+}
+th, td{
+  color: aquamarine;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: medium;
+}
